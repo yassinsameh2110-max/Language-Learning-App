@@ -1,5 +1,6 @@
 
 import 'package:basketball_points/screens/home/home.dart';
+import 'package:basketball_points/screens/numbers/numbers.dart';
 import 'package:flutter/material.dart';
 
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget {
           home: child,
         );
       },
-      child: const HomePage(),
+      child:  HomePage(),
     );
   }
 }
