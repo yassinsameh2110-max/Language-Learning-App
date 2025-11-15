@@ -1,6 +1,5 @@
-
 import 'package:basketball_points/screens/home/home.dart';
-import 'package:basketball_points/screens/numbers/numbers.dart';
+
 import 'package:flutter/material.dart';
 
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -18,7 +17,7 @@ class MyApp extends StatelessWidget {
       minTextAdapt: true,
       splitScreenMode: true,
       // Use builder only if you need to use library outside ScreenUtilInit context
-      builder: (_ , child) {
+      builder: (_, child) {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
           title: 'First Method',
@@ -30,7 +29,7 @@ class MyApp extends StatelessWidget {
           home: child,
         );
       },
-      child:  HomePage(),
+      child: HomePage(),
     );
   }
 }

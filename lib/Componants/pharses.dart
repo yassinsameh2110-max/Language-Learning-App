@@ -17,7 +17,8 @@ class Phrases extends StatelessWidget {
          height: 100.h,
         child: Row(
           children: [
-         Expanded(child: SubItem(number: number))
+         Expanded(child: SubItem(number: number)),
+         
           ],
         ),
       ),
